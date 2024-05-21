@@ -1,0 +1,1606 @@
+{
+	"collections": [
+		{
+			"name": "Style Tokens",
+			"modes": ["Winter Light", "Winter Dark"],
+			"variables": {
+				"primary": {
+					"50": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/50",
+							"Winter Dark": "Colors:Dodger-Blue/50"
+						}
+					},
+					"100": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/100",
+							"Winter Dark": "Colors:Dodger-Blue/100"
+						}
+					},
+					"200": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/200",
+							"Winter Dark": "Colors:Dodger-Blue/200"
+						}
+					},
+					"300": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/300",
+							"Winter Dark": "Colors:Dodger-Blue/300"
+						}
+					},
+					"400": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/400",
+							"Winter Dark": "Colors:Dodger-Blue/400"
+						}
+					},
+					"500": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/500",
+							"Winter Dark": "Colors:Dodger-Blue/500"
+						}
+					},
+					"600": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/600",
+							"Winter Dark": "Colors:Dodger-Blue/600"
+						}
+					},
+					"700": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/700",
+							"Winter Dark": "Colors:Dodger-Blue/700"
+						}
+					},
+					"800": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/800",
+							"Winter Dark": "Colors:Dodger-Blue/800"
+						}
+					},
+					"900": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/900",
+							"Winter Dark": "Colors:Dodger-Blue/900"
+						}
+					},
+					"950": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Dodger-Blue/950",
+							"Winter Dark": "Colors:Dodger-Blue/950"
+						}
+					}
+				},
+				"secondary": {
+					"50": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/50",
+							"Winter Dark": "Colors:Purple/50"
+						}
+					},
+					"100": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/100",
+							"Winter Dark": "Colors:Purple/100"
+						}
+					},
+					"200": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/200",
+							"Winter Dark": "Colors:Purple/200"
+						}
+					},
+					"300": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/300",
+							"Winter Dark": "Colors:Purple/300"
+						}
+					},
+					"400": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/400",
+							"Winter Dark": "Colors:Purple/400"
+						}
+					},
+					"500": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/500",
+							"Winter Dark": "Colors:Purple/500"
+						}
+					},
+					"600": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/600",
+							"Winter Dark": "Colors:Purple/600"
+						}
+					},
+					"700": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/700",
+							"Winter Dark": "Colors:Purple/700"
+						}
+					},
+					"800": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/800",
+							"Winter Dark": "Colors:Purple/800"
+						}
+					},
+					"900": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/900",
+							"Winter Dark": "Colors:Purple/900"
+						}
+					},
+					"950": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Purple/950",
+							"Winter Dark": "Colors:Purple/950"
+						}
+					}
+				},
+				"gray": {
+					"50": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/50",
+							"Winter Dark": "Colors:Cool-Gray/50"
+						}
+					},
+					"100": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/100",
+							"Winter Dark": "Colors:Cool-Gray/100"
+						}
+					},
+					"200": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/200",
+							"Winter Dark": "Colors:Cool-Gray/200"
+						}
+					},
+					"300": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/300",
+							"Winter Dark": "Colors:Cool-Gray/300"
+						}
+					},
+					"400": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/400",
+							"Winter Dark": "Colors:Cool-Gray/400"
+						}
+					},
+					"500": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/500",
+							"Winter Dark": "Colors:Cool-Gray/500"
+						}
+					},
+					"600": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/600",
+							"Winter Dark": "Colors:Cool-Gray/600"
+						}
+					},
+					"700": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/700",
+							"Winter Dark": "Colors:Cool-Gray/700"
+						}
+					},
+					"800": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/800",
+							"Winter Dark": "Colors:Cool-Gray/800"
+						}
+					},
+					"900": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/900",
+							"Winter Dark": "Colors:Cool-Gray/900"
+						}
+					},
+					"950": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Cool-Gray/950",
+							"Winter Dark": "Colors:Cool-Gray/950"
+						}
+					}
+				},
+				"success": {
+					"50": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/50",
+							"Winter Dark": "Colors:Pastel-Green/50"
+						}
+					},
+					"100": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/100",
+							"Winter Dark": "Colors:Pastel-Green/100"
+						}
+					},
+					"200": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/200",
+							"Winter Dark": "Colors:Pastel-Green/200"
+						}
+					},
+					"300": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/300",
+							"Winter Dark": "Colors:Pastel-Green/300"
+						}
+					},
+					"400": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/400",
+							"Winter Dark": "Colors:Pastel-Green/400"
+						}
+					},
+					"500": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/500",
+							"Winter Dark": "Colors:Pastel-Green/500"
+						}
+					},
+					"600": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/600",
+							"Winter Dark": "Colors:Pastel-Green/600"
+						}
+					},
+					"700": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/700",
+							"Winter Dark": "Colors:Pastel-Green/700"
+						}
+					},
+					"800": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/800",
+							"Winter Dark": "Colors:Pastel-Green/800"
+						}
+					},
+					"900": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/900",
+							"Winter Dark": "Colors:Pastel-Green/900"
+						}
+					},
+					"950": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Pastel-Green/950",
+							"Winter Dark": "Colors:Pastel-Green/950"
+						}
+					}
+				},
+				"warning": {
+					"50": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/50",
+							"Winter Dark": "Colors:Turbo-Yellow/50"
+						}
+					},
+					"100": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/100",
+							"Winter Dark": "Colors:Turbo-Yellow/100"
+						}
+					},
+					"200": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/200",
+							"Winter Dark": "Colors:Turbo-Yellow/200"
+						}
+					},
+					"300": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/300",
+							"Winter Dark": "Colors:Turbo-Yellow/300"
+						}
+					},
+					"400": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/400",
+							"Winter Dark": "Colors:Turbo-Yellow/400"
+						}
+					},
+					"500": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/500",
+							"Winter Dark": "Colors:Turbo-Yellow/500"
+						}
+					},
+					"600": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/600",
+							"Winter Dark": "Colors:Turbo-Yellow/600"
+						}
+					},
+					"700": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/700",
+							"Winter Dark": "Colors:Turbo-Yellow/700"
+						}
+					},
+					"800": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/800",
+							"Winter Dark": "Colors:Turbo-Yellow/800"
+						}
+					},
+					"900": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/900",
+							"Winter Dark": "Colors:Turbo-Yellow/900"
+						}
+					},
+					"950": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Turbo-Yellow/950",
+							"Winter Dark": "Colors:Turbo-Yellow/950"
+						}
+					}
+				},
+				"danger": {
+					"50": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/50",
+							"Winter Dark": "Colors:Barn-Red/50"
+						}
+					},
+					"100": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/100",
+							"Winter Dark": "Colors:Barn-Red/100"
+						}
+					},
+					"200": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/200",
+							"Winter Dark": "Colors:Barn-Red/200"
+						}
+					},
+					"300": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/300",
+							"Winter Dark": "Colors:Barn-Red/300"
+						}
+					},
+					"400": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/400",
+							"Winter Dark": "Colors:Barn-Red/400"
+						}
+					},
+					"500": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/500",
+							"Winter Dark": "Colors:Barn-Red/500"
+						}
+					},
+					"600": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/600",
+							"Winter Dark": "Colors:Barn-Red/600"
+						}
+					},
+					"700": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/700",
+							"Winter Dark": "Colors:Barn-Red/700"
+						}
+					},
+					"800": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/800",
+							"Winter Dark": "Colors:Barn-Red/800"
+						}
+					},
+					"900": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/900",
+							"Winter Dark": "Colors:Barn-Red/900"
+						}
+					},
+					"950": {
+						"type": "color",
+						"values": {
+							"Winter Light": "Colors:Barn-Red/950",
+							"Winter Dark": "Colors:Barn-Red/950"
+						}
+					}
+				},
+				"background": {
+					"subtle": {
+						"description": "A subtle background color used for the main app",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/50",
+							"Winter Dark": "Style Tokens:gray/950"
+						}
+					},
+					"default": {
+						"description": "A default background color used for the main app",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					}
+				},
+				"surface": {
+					"subtle": {
+						"description": "A subtle surface color used for the main app. Use this color for cards, modals, and other surfaces that should not draw attention",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"default": {
+						"description": "A default surface color used for the main app. Use this color for cards, modals, and other surfaces that should draw attention",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/200",
+							"Winter Dark": "Style Tokens:gray/800"
+						}
+					}
+				},
+				"accent": {
+					"neutral": {
+						"description": "A default neutral accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/700",
+							"Winter Dark": "Style Tokens:gray/300"
+						}
+					},
+					"neutral-hover": {
+						"description": "A hover neutral accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/800",
+							"Winter Dark": "Style Tokens:gray/200"
+						}
+					},
+					"neutral-active": {
+						"description": "An active neutral accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/900",
+							"Winter Dark": "Style Tokens:gray/100"
+						}
+					},
+					"neutral-negative": {
+						"description": "A default neutral accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/300",
+							"Winter Dark": "Style Tokens:gray/700"
+						}
+					},
+					"neutral-negative-hover": {
+						"description": "A hover neutral accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/200",
+							"Winter Dark": "Style Tokens:gray/800"
+						}
+					},
+					"neutral-negative-active": {
+						"description": "An active neutral accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"neutral-subtle": {
+						"description": "A subtle neutral accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/50",
+							"Winter Dark": "Style Tokens:gray/950"
+						}
+					},
+					"neutral-subtle-hover": {
+						"description": "A hover neutral accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"neutral-subtle-active": {
+						"description": "An active neutral accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/200",
+							"Winter Dark": "Style Tokens:gray/800"
+						}
+					},
+					"primary": {
+						"description": "A default primary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/500",
+							"Winter Dark": "Style Tokens:primary/500"
+						}
+					},
+					"primary-hover": {
+						"description": "A hover primary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/600",
+							"Winter Dark": "Style Tokens:primary/400"
+						}
+					},
+					"primary-active": {
+						"description": "An active primary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/700",
+							"Winter Dark": "Style Tokens:primary/300"
+						}
+					},
+					"primary-negative": {
+						"description": "A default primary accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/500",
+							"Winter Dark": "Style Tokens:primary/500"
+						}
+					},
+					"primary-negative-hover": {
+						"description": "A hover primary accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/400",
+							"Winter Dark": "Style Tokens:primary/600"
+						}
+					},
+					"primary-negative-active": {
+						"description": "An active primary accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/300",
+							"Winter Dark": "Style Tokens:primary/700"
+						}
+					},
+					"primary-subtle": {
+						"description": "A subtle primary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/50",
+							"Winter Dark": "Style Tokens:primary/950"
+						}
+					},
+					"primary-subtle-hover": {
+						"description": "A hover primary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/100",
+							"Winter Dark": "Style Tokens:primary/900"
+						}
+					},
+					"primary-subtle-active": {
+						"description": "An active primary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/200",
+							"Winter Dark": "Style Tokens:primary/800"
+						}
+					},
+					"secondary": {
+						"description": "A default secondary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/500",
+							"Winter Dark": "Style Tokens:secondary/500"
+						}
+					},
+					"secondary-hover": {
+						"description": "A hover secondary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/600",
+							"Winter Dark": "Style Tokens:secondary/400"
+						}
+					},
+					"secondary-active": {
+						"description": "An active secondary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/700",
+							"Winter Dark": "Style Tokens:secondary/300"
+						}
+					},
+					"secondary-negative": {
+						"description": "A default secondary accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/500",
+							"Winter Dark": "Style Tokens:secondary/500"
+						}
+					},
+					"secondary-negative-hover": {
+						"description": "A hover secondary accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/400",
+							"Winter Dark": "Style Tokens:secondary/600"
+						}
+					},
+					"secondary-negative-active": {
+						"description": "An active secondary accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/300",
+							"Winter Dark": "Style Tokens:secondary/700"
+						}
+					},
+					"secondary-subtle": {
+						"description": "A subtle secondary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/50",
+							"Winter Dark": "Style Tokens:secondary/950"
+						}
+					},
+					"secondary-subtle-hover": {
+						"description": "A hover secondary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/100",
+							"Winter Dark": "Style Tokens:secondary/900"
+						}
+					},
+					"secondary-subtle-active": {
+						"description": "An active secondary accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/200",
+							"Winter Dark": "Style Tokens:secondary/800"
+						}
+					},
+					"success": {
+						"description": "A default success accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/500",
+							"Winter Dark": "Style Tokens:success/500"
+						}
+					},
+					"success-hover": {
+						"description": "A hover success accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/600",
+							"Winter Dark": "Style Tokens:success/400"
+						}
+					},
+					"success-active": {
+						"description": "An active success accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/700",
+							"Winter Dark": "Style Tokens:success/300"
+						}
+					},
+					"success-negative": {
+						"description": "A default success accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/500",
+							"Winter Dark": "Style Tokens:success/500"
+						}
+					},
+					"success-negative-hover": {
+						"description": "A hover success accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/400",
+							"Winter Dark": "Style Tokens:success/600"
+						}
+					},
+					"success-negative-active": {
+						"description": "An active success accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/300",
+							"Winter Dark": "Style Tokens:success/700"
+						}
+					},
+					"success-subtle": {
+						"description": "A subtle success accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/50",
+							"Winter Dark": "Style Tokens:success/950"
+						}
+					},
+					"success-subtle-hover": {
+						"description": "A subtle hover success accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/100",
+							"Winter Dark": "Style Tokens:success/900"
+						}
+					},
+					"success-subtle-active": {
+						"description": "A subtle active success accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/200",
+							"Winter Dark": "Style Tokens:success/800"
+						}
+					},
+					"warning": {
+						"description": "A default warning accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/500",
+							"Winter Dark": "Style Tokens:warning/500"
+						}
+					},
+					"warning-hover": {
+						"description": "A hover warning accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/600",
+							"Winter Dark": "Style Tokens:warning/400"
+						}
+					},
+					"warning-active": {
+						"description": "An active warning accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/700",
+							"Winter Dark": "Style Tokens:warning/300"
+						}
+					},
+					"warning-negative": {
+						"description": "A default warning accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/500",
+							"Winter Dark": "Style Tokens:warning/500"
+						}
+					},
+					"warning-negative-hover": {
+						"description": "A hover warning accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/400",
+							"Winter Dark": "Style Tokens:warning/600"
+						}
+					},
+					"warning-negative-active": {
+						"description": "An active warning accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/300",
+							"Winter Dark": "Style Tokens:warning/700"
+						}
+					},
+					"warning-subtle": {
+						"description": "A subtle warning accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/50",
+							"Winter Dark": "Style Tokens:warning/950"
+						}
+					},
+					"warning-subtle-hover": {
+						"description": "A subtle hover warning accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/100",
+							"Winter Dark": "Style Tokens:warning/900"
+						}
+					},
+					"warning-subtle-active": {
+						"description": "A subtle active warning accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/200",
+							"Winter Dark": "Style Tokens:warning/800"
+						}
+					},
+					"danger": {
+						"description": "A default danger accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/500",
+							"Winter Dark": "Style Tokens:danger/500"
+						}
+					},
+					"danger-hover": {
+						"description": "A hover danger accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/600",
+							"Winter Dark": "Style Tokens:danger/400"
+						}
+					},
+					"danger-active": {
+						"description": "An active danger accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/700",
+							"Winter Dark": "Style Tokens:danger/300"
+						}
+					},
+					"danger-negative": {
+						"description": "A default danger accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/500",
+							"Winter Dark": "Style Tokens:danger/500"
+						}
+					},
+					"danger-negative-hover": {
+						"description": "A hover danger accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/400",
+							"Winter Dark": "Style Tokens:danger/600"
+						}
+					},
+					"danger-negative-active": {
+						"description": "An active danger accent color used on top of surfaces/backgrounds for reverse color schemes. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/300",
+							"Winter Dark": "Style Tokens:danger/700"
+						}
+					},
+					"danger-subtle": {
+						"description": "A subtle danger accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/50",
+							"Winter Dark": "Style Tokens:danger/950"
+						}
+					},
+					"danger-subtle-hover": {
+						"description": "A subtle hover danger accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/100",
+							"Winter Dark": "Style Tokens:danger/900"
+						}
+					},
+					"danger-subtle-active": {
+						"description": "A subtle active danger accent color used on top of surfaces/backgrounds. Used for things like buttons, links, and other interactive elements",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/200",
+							"Winter Dark": "Style Tokens:danger/800"
+						}
+					}
+				},
+				"border": {
+					"neutral": {
+						"description": "Neutral border color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/300",
+							"Winter Dark": "Style Tokens:gray/700"
+						}
+					},
+					"neutral-hover": {
+						"description": "Neutral border color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/400",
+							"Winter Dark": "Style Tokens:gray/600"
+						}
+					},
+					"neutral-active": {
+						"description": "Neutral border color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/500",
+							"Winter Dark": "Style Tokens:gray/500"
+						}
+					},
+					"neutral-negative": {
+						"description": "Neutral border color for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/700",
+							"Winter Dark": "Style Tokens:gray/300"
+						}
+					},
+					"neutral-negative-hover": {
+						"description": "Neutral border color on hover for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/600",
+							"Winter Dark": "Style Tokens:gray/400"
+						}
+					},
+					"neutral-negative-active": {
+						"description": "Neutral border color on active for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/500",
+							"Winter Dark": "Style Tokens:gray/500"
+						}
+					},
+					"primary": {
+						"description": "Primary border color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/500",
+							"Winter Dark": "Style Tokens:primary/500"
+						}
+					},
+					"primary-hover": {
+						"description": "Primary border color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/600",
+							"Winter Dark": "Style Tokens:primary/400"
+						}
+					},
+					"primary-active": {
+						"description": "Primary border color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/700",
+							"Winter Dark": "Style Tokens:primary/300"
+						}
+					},
+					"primary-negative": {
+						"description": "Primary border color for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/500",
+							"Winter Dark": "Style Tokens:primary/500"
+						}
+					},
+					"primary-negative-hover": {
+						"description": "Primary border color on hover for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/400",
+							"Winter Dark": "Style Tokens:primary/600"
+						}
+					},
+					"primary-negative-active": {
+						"description": "Primary border color on active for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/300",
+							"Winter Dark": "Style Tokens:primary/700"
+						}
+					},
+					"secondary": {
+						"description": "Secondary border color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/500",
+							"Winter Dark": "Style Tokens:secondary/500"
+						}
+					},
+					"secondary-hover": {
+						"description": "Secondary border color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/600",
+							"Winter Dark": "Style Tokens:secondary/400"
+						}
+					},
+					"secondary-active": {
+						"description": "Secondary border color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/700",
+							"Winter Dark": "Style Tokens:secondary/300"
+						}
+					},
+					"secondary-negative": {
+						"description": "Secondary border color for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/500",
+							"Winter Dark": "Style Tokens:secondary/500"
+						}
+					},
+					"secondary-negative-hover": {
+						"description": "Secondary border color on hover for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/400",
+							"Winter Dark": "Style Tokens:secondary/600"
+						}
+					},
+					"secondary-negative-active": {
+						"description": "Secondary border color on active for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/300",
+							"Winter Dark": "Style Tokens:secondary/700"
+						}
+					},
+					"success": {
+						"description": "Success border color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/500",
+							"Winter Dark": "Style Tokens:success/500"
+						}
+					},
+					"success-hover": {
+						"description": "Success border color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/600",
+							"Winter Dark": "Style Tokens:success/400"
+						}
+					},
+					"success-active": {
+						"description": "Success border color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/700",
+							"Winter Dark": "Style Tokens:success/300"
+						}
+					},
+					"success-negative": {
+						"description": "Success border color for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/500",
+							"Winter Dark": "Style Tokens:success/500"
+						}
+					},
+					"success-negative-hover": {
+						"description": "Success border color on hover for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/400",
+							"Winter Dark": "Style Tokens:success/600"
+						}
+					},
+					"success-negative-active": {
+						"description": "Success border color on active for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/300",
+							"Winter Dark": "Style Tokens:success/700"
+						}
+					},
+					"warning": {
+						"description": "Warning border color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/500",
+							"Winter Dark": "Style Tokens:warning/500"
+						}
+					},
+					"warning-hover": {
+						"description": "Warning border color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/600",
+							"Winter Dark": "Style Tokens:warning/400"
+						}
+					},
+					"warning-active": {
+						"description": "Warning border color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/700",
+							"Winter Dark": "Style Tokens:warning/300"
+						}
+					},
+					"warning-negative": {
+						"description": "Warning border color for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/500",
+							"Winter Dark": "Style Tokens:warning/500"
+						}
+					},
+					"warning-negative-hover": {
+						"description": "Warning border color on hover for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/400",
+							"Winter Dark": "Style Tokens:warning/600"
+						}
+					},
+					"warning-negative-active": {
+						"description": "Warning border color on active for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/300",
+							"Winter Dark": "Style Tokens:warning/700"
+						}
+					},
+					"danger": {
+						"description": "Danger border color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/500",
+							"Winter Dark": "Style Tokens:danger/500"
+						}
+					},
+					"danger-hover": {
+						"description": "Danger border color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/600",
+							"Winter Dark": "Style Tokens:danger/400"
+						}
+					},
+					"danger-active": {
+						"description": "Danger border color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/700",
+							"Winter Dark": "Style Tokens:danger/300"
+						}
+					},
+					"danger-negative": {
+						"description": "Danger border color for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/500",
+							"Winter Dark": "Style Tokens:danger/500"
+						}
+					},
+					"danger-negative-hover": {
+						"description": "Danger border color on hover for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/400",
+							"Winter Dark": "Style Tokens:danger/600"
+						}
+					},
+					"danger-negative-active": {
+						"description": "Danger border color on active for reverse color schemes",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/300",
+							"Winter Dark": "Style Tokens:danger/700"
+						}
+					}
+				},
+				"text": {
+					"default": {
+						"description": "Default text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/900",
+							"Winter Dark": "Style Tokens:gray/100"
+						}
+					},
+					"subtle": {
+						"description": "Subtle text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/700",
+							"Winter Dark": "Style Tokens:gray/300"
+						}
+					},
+					"disabled": {
+						"description": "Disabled text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/500",
+							"Winter Dark": "Style Tokens:gray/500"
+						}
+					},
+					"inverse": {
+						"description": "Inverse text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"link": {
+						"description": "Link text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/500",
+							"Winter Dark": "Style Tokens:primary/500"
+						}
+					},
+					"link-hover": {
+						"description": "Link text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/600",
+							"Winter Dark": "Style Tokens:primary/400"
+						}
+					},
+					"link-active": {
+						"description": "Link text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/700",
+							"Winter Dark": "Style Tokens:primary/300"
+						}
+					},
+					"link-visited": {
+						"description": "Visited link text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/700",
+							"Winter Dark": "Style Tokens:primary/300"
+						}
+					},
+					"link-disabled": {
+						"description": "Disabled link text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/500",
+							"Winter Dark": "Style Tokens:gray/500"
+						}
+					},
+					"on-neutral": {
+						"description": "Text color on neutral background",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-neutral-hover": {
+						"description": "Text color on neutral background on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-neutral-active": {
+						"description": "Text color on neutral background on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-primary": {
+						"description": "Text color on primary background",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-primary-hover": {
+						"description": "Text color on primary background on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-primary-active": {
+						"description": "Text color on primary background on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-secondary": {
+						"description": "Text color on secondary background",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-secondary-hover": {
+						"description": "Text color on secondary background on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-secondary-active": {
+						"description": "Text color on secondary background on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-success": {
+						"description": "Text color on success background",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-success-hover": {
+						"description": "Text color on success background on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-success-active": {
+						"description": "Text color on success background on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-warning": {
+						"description": "Text color on warning background",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-warning-hover": {
+						"description": "Text color on warning background on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-warning-active": {
+						"description": "Text color on warning background on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-danger": {
+						"description": "Text color on danger background",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-danger-hover": {
+						"description": "Text color on danger background on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"on-danger-active": {
+						"description": "Text color on danger background on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/100",
+							"Winter Dark": "Style Tokens:gray/900"
+						}
+					},
+					"neutral": {
+						"description": "Neutral text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/900",
+							"Winter Dark": "Style Tokens:gray/100"
+						}
+					},
+					"neutral-hover": {
+						"description": "Neutral text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/900",
+							"Winter Dark": "Style Tokens:gray/100"
+						}
+					},
+					"neutral-active": {
+						"description": "Neutral text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:gray/900",
+							"Winter Dark": "Style Tokens:gray/100"
+						}
+					},
+					"primary": {
+						"description": "Primary text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/700",
+							"Winter Dark": "Style Tokens:primary/700"
+						}
+					},
+					"primary-hover": {
+						"description": "Primary text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/800",
+							"Winter Dark": "Style Tokens:primary/600"
+						}
+					},
+					"primary-active": {
+						"description": "Primary text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:primary/900",
+							"Winter Dark": "Style Tokens:primary/500"
+						}
+					},
+					"secondary": {
+						"description": "Secondary text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/700",
+							"Winter Dark": "Style Tokens:secondary/700"
+						}
+					},
+					"secondary-hover": {
+						"description": "Secondary text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/800",
+							"Winter Dark": "Style Tokens:secondary/600"
+						}
+					},
+					"secondary-active": {
+						"description": "Secondary text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:secondary/900",
+							"Winter Dark": "Style Tokens:secondary/500"
+						}
+					},
+					"success": {
+						"description": "Success text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/700",
+							"Winter Dark": "Style Tokens:success/700"
+						}
+					},
+					"success-hover": {
+						"description": "Success text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/800",
+							"Winter Dark": "Style Tokens:success/600"
+						}
+					},
+					"success-active": {
+						"description": "Success text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:success/900",
+							"Winter Dark": "Style Tokens:success/500"
+						}
+					},
+					"warning": {
+						"description": "Warning text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/700",
+							"Winter Dark": "Style Tokens:warning/700"
+						}
+					},
+					"warning-hover": {
+						"description": "Warning text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/800",
+							"Winter Dark": "Style Tokens:warning/600"
+						}
+					},
+					"warning-active": {
+						"description": "Warning text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:warning/900",
+							"Winter Dark": "Style Tokens:warning/500"
+						}
+					},
+					"danger": {
+						"description": "Danger text color",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/700",
+							"Winter Dark": "Style Tokens:danger/700"
+						}
+					},
+					"danger-hover": {
+						"description": "Danger text color on hover",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/800",
+							"Winter Dark": "Style Tokens:danger/600"
+						}
+					},
+					"danger-active": {
+						"description": "Danger text color on active",
+						"type": "color",
+						"values": {
+							"Winter Light": "Style Tokens:danger/900",
+							"Winter Dark": "Style Tokens:danger/500"
+						}
+					}
+				}
+			}
+		}
+	]
+}

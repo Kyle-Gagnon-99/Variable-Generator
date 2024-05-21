@@ -1,0 +1,2034 @@
+{
+	"collections": [
+		{
+			"name": "Component Tokens",
+			"modes": ["Winter Theme"],
+			"variables": {
+				"button": {
+					"neutral": {
+						"solid": {
+							"default": {
+								"background": {
+									"description": "The background color of the neutral solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the neutral solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the neutral solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-active"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the neutral solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the neutral solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral"
+									}
+								}
+							}
+						},
+						"light": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the neutral light variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the neutral light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the neutral light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-subtle-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the neutral light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the neutral light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the neutral light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								}
+							}
+						},
+						"bordered": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the neutral bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the neutral bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral-hover"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the neutral bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral-active"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the neutral bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the neutral bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral"
+									}
+								}
+							}
+						},
+						"ghost": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the neutral ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the neutral ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral-hover"
+									}
+								},
+								"background": {
+									"description": "The background color of the neutral ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the neutral ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral-active"
+									}
+								},
+								"background": {
+									"description": "The background color of the neutral ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/neutral-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the neutral ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the neutral ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/neutral"
+									}
+								},
+								"border": {
+									"description": "The border color of the neutral ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/neutral"
+									}
+								}
+							}
+						}
+					},
+					"primary": {
+						"solid": {
+							"default": {
+								"background": {
+									"description": "The background color of the primary solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the primary solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the primary solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-active"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the primary solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the primary solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary"
+									}
+								}
+							}
+						},
+						"light": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the primary light variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the primary light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the primary light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-subtle-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the primary light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the primary light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the primary light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								}
+							}
+						},
+						"bordered": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the primary bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the primary bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary-hover"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the primary bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary-active"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the primary bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the primary bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary"
+									}
+								}
+							}
+						},
+						"ghost": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the primary ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the primary ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary-hover"
+									}
+								},
+								"background": {
+									"description": "The background color of the primary ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the primary ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary-active"
+									}
+								},
+								"background": {
+									"description": "The background color of the primary ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/primary-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the primary ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the primary ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/primary"
+									}
+								},
+								"border": {
+									"description": "The border color of the primary ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/primary"
+									}
+								}
+							}
+						}
+					},
+					"secondary": {
+						"solid": {
+							"default": {
+								"background": {
+									"description": "The background color of the secondary solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the secondary solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the secondary solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-active"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the secondary solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the secondary solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary"
+									}
+								}
+							}
+						},
+						"light": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the secondary light variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the secondary light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the secondary light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-subtle-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the secondary light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the secondary light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the secondary light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								}
+							}
+						},
+						"bordered": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the secondary bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the secondary bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary-hover"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the secondary bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary-active"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the secondary bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the secondary bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary"
+									}
+								}
+							}
+						},
+						"ghost": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the secondary ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the secondary ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary-hover"
+									}
+								},
+								"background": {
+									"description": "The background color of the secondary ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the secondary ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary-active"
+									}
+								},
+								"background": {
+									"description": "The background color of the secondary ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/secondary-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the secondary ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the secondary ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/secondary"
+									}
+								},
+								"border": {
+									"description": "The border color of the secondary ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/secondary"
+									}
+								}
+							}
+						}
+					},
+					"success": {
+						"solid": {
+							"default": {
+								"background": {
+									"description": "The background color of the success solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the success solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the success solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-active"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the success solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the success solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success"
+									}
+								}
+							}
+						},
+						"light": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the success light variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the success light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the success light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-subtle-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the success light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the success light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the success light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								}
+							}
+						},
+						"bordered": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the success bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the success bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success-hover"
+									}
+								},
+								"border": {
+									"description": "The border color of the success bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the success bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success-active"
+									}
+								},
+								"border": {
+									"description": "The border color of the success bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the success bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the success bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success"
+									}
+								}
+							}
+						},
+						"ghost": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the success ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the success ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success-hover"
+									}
+								},
+								"background": {
+									"description": "The background color of the success ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the success ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success-active"
+									}
+								},
+								"background": {
+									"description": "The background color of the success ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/success-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the success ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the success ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/success"
+									}
+								},
+								"border": {
+									"description": "The border color of the success ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/success"
+									}
+								}
+							}
+						}
+					},
+					"warning": {
+						"solid": {
+							"default": {
+								"background": {
+									"description": "The background color of the warning solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the warning solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the warning solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-active"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the warning solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the warning solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning"
+									}
+								}
+							}
+						},
+						"light": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the warning light variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the warning light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the warning light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-subtle-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the warning light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the warning light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the warning light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								}
+							}
+						},
+						"bordered": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the warning bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the warning bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning-hover"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the warning bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning-active"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the warning bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the warning bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning"
+									}
+								}
+							}
+						},
+						"ghost": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the warning ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the warning ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning-hover"
+									}
+								},
+								"background": {
+									"description": "The background color of the warning ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the warning ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning-active"
+									}
+								},
+								"background": {
+									"description": "The background color of the warning ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/warning-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the warning ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the warning ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/warning"
+									}
+								},
+								"border": {
+									"description": "The border color of the warning ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/warning"
+									}
+								}
+							}
+						}
+					},
+					"danger": {
+						"solid": {
+							"default": {
+								"background": {
+									"description": "The background color of the danger solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger solid variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the danger solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger solid variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the danger solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-active"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger solid variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the danger solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger solid variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the danger solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger solid variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger"
+									}
+								}
+							}
+						},
+						"light": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the danger light variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								}
+							},
+							"hover": {
+								"background": {
+									"description": "The background color of the danger light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger light variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger-hover"
+									}
+								}
+							},
+							"active": {
+								"background": {
+									"description": "The background color of the danger light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-subtle-hover"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger light variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger-active"
+									}
+								}
+							},
+							"focus": {
+								"background": {
+									"description": "The background color of the danger light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger light variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								}
+							},
+							"disabled": {
+								"background": {
+									"description": "The background color of the danger light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-subtle"
+									}
+								},
+								"text": {
+									"description": "The text/icon color of the danger light variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								}
+							}
+						},
+						"bordered": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the danger bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger bordered variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the danger bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger-hover"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger bordered variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the danger bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger-active"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger bordered variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the danger bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger bordered variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the danger bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger bordered variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger"
+									}
+								}
+							}
+						},
+						"ghost": {
+							"default": {
+								"text": {
+									"description": "The text/icon color of the danger ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger ghost variant button in the default state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger"
+									}
+								}
+							},
+							"hover": {
+								"text": {
+									"description": "The text/icon color of the danger ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger-hover"
+									}
+								},
+								"background": {
+									"description": "The background color of the danger ghost variant button in the hover state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-hover"
+									}
+								}
+							},
+							"active": {
+								"text": {
+									"description": "The text/icon color of the danger ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/on-danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger-active"
+									}
+								},
+								"background": {
+									"description": "The background color of the danger ghost variant button in the active state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:accent/danger-active"
+									}
+								}
+							},
+							"focus": {
+								"text": {
+									"description": "The text/icon color of the danger ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger ghost variant button in the focus state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger"
+									}
+								}
+							},
+							"disabled": {
+								"text": {
+									"description": "The text/icon color of the danger ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:text/danger"
+									}
+								},
+								"border": {
+									"description": "The border color of the danger ghost variant button in the disabled state.",
+									"type": "color",
+									"values": {
+										"Winter Theme": "Style Tokens:border/danger"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

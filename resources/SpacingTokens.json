@@ -1,0 +1,308 @@
+{
+	"collections": [
+		{
+			"name": "Spacing Tokens",
+			"modes": ["Default"],
+			"variables": {
+				"spacing": {
+					"0": {
+						"type": "number",
+						"values": {
+							"Default": 0
+						}
+					},
+					"4": {
+						"type": "number",
+						"values": {
+							"Default": 4
+						}
+					},
+					"8": {
+						"type": "number",
+						"values": {
+							"Default": 8
+						}
+					},
+					"12": {
+						"type": "number",
+						"values": {
+							"Default": 12
+						}
+					},
+					"16": {
+						"type": "number",
+						"values": {
+							"Default": 16
+						}
+					},
+					"24": {
+						"type": "number",
+						"values": {
+							"Default": 24
+						}
+					},
+					"32": {
+						"type": "number",
+						"values": {
+							"Default": 32
+						}
+					},
+					"48": {
+						"type": "number",
+						"values": {
+							"Default": 48
+						}
+					},
+					"64": {
+						"type": "number",
+						"values": {
+							"Default": 64
+						}
+					},
+					"96": {
+						"type": "number",
+						"values": {
+							"Default": 96
+						}
+					},
+					"128": {
+						"type": "number",
+						"values": {
+							"Default": 128
+						}
+					},
+					"192": {
+						"type": "number",
+						"values": {
+							"Default": 192
+						}
+					},
+					"256": {
+						"type": "number",
+						"values": {
+							"Default": 256
+						}
+					},
+					"384": {
+						"type": "number",
+						"values": {
+							"Default": 384
+						}
+					},
+					"512": {
+						"type": "number",
+						"values": {
+							"Default": 512
+						}
+					},
+					"640": {
+						"type": "number",
+						"values": {
+							"Default": 640
+						}
+					},
+					"768": {
+						"type": "number",
+						"values": {
+							"Default": 768
+						}
+					}
+				},
+				"radius": {
+					"none": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/0"
+						}
+					},
+					"sm": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/8"
+						}
+					},
+					"md": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/16"
+						}
+					},
+					"lg": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/32"
+						}
+					},
+					"xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/64"
+						}
+					},
+					"full": {
+						"type": "number",
+						"values": {
+							"Default": 9999
+						}
+					}
+				},
+				"text": {
+					"12": {
+						"type": "number",
+						"values": {
+							"Default": 12
+						}
+					},
+					"14": {
+						"type": "number",
+						"values": {
+							"Default": 14
+						}
+					},
+					"16": {
+						"type": "number",
+						"values": {
+							"Default": 16
+						}
+					},
+					"18": {
+						"type": "number",
+						"values": {
+							"Default": 18
+						}
+					},
+					"20": {
+						"type": "number",
+						"values": {
+							"Default": 20
+						}
+					},
+					"24": {
+						"type": "number",
+						"values": {
+							"Default": 24
+						}
+					},
+					"30": {
+						"type": "number",
+						"values": {
+							"Default": 30
+						}
+					},
+					"36": {
+						"type": "number",
+						"values": {
+							"Default": 36
+						}
+					},
+					"48": {
+						"type": "number",
+						"values": {
+							"Default": 48
+						}
+					},
+					"60": {
+						"type": "number",
+						"values": {
+							"Default": 60
+						}
+					},
+					"72": {
+						"type": "number",
+						"values": {
+							"Default": 72
+						}
+					}
+				},
+				"padding": {
+					"xs": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/4"
+						}
+					},
+					"sm": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/8"
+						}
+					},
+					"md": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/12"
+						}
+					},
+					"lg": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/16"
+						}
+					},
+					"xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/24"
+						}
+					},
+					"2xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/32"
+						}
+					},
+					"3xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/48"
+						}
+					},
+					"4xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/64"
+						}
+					}
+				},
+				"space": {
+					"sm": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/4"
+						}
+					},
+					"md": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/8"
+						}
+					},
+					"lg": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/12"
+						}
+					},
+					"xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/16"
+						}
+					},
+					"2xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/24"
+						}
+					},
+					"3xl": {
+						"type": "number",
+						"values": {
+							"Default": "Spacing Tokens:spacing/32"
+						}
+					}
+				}
+			}
+		}
+	]
+}
