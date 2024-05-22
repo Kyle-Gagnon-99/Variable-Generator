@@ -1,22 +1,31 @@
 [settings]
+# Define the selected format for the output
 selected_format = "css"
 
-[css]
-prefix = "mw"
-# Generate css as a TailwindCSS file
-tailwindcss = true
-discard_comments = false
+# Specify the input directory of the JSON files
+input_dir = "resources"
 
-# Specify the output file for the generated css
-output = { dir = "", output = "generated.css" }
-
-# Specify input JSON file(s) to generate css from
-input = [
-    { dir = "resources", input = "Colors.json" },
-    { dir = "resrouces", input = "StyleTokens.json" },
-    { dir = "resources", input = "SpacingTokens.json" },
-    { dir = "resources", input = "ComponentTokens.json" },
+# Specify the input files
+input_files = [
+    "Colors.json",
+    "StyleTokens.json",
+    "SpacingTokens.json",
+    "ComponentTokens.json",
 ]
 
+[css]
+# A prefix to add to each generated CSS variable
+prefix = "mw"
+
+# Generate css as a TailwindCSS file
+tailwindcss = true
+
+# Include comments in the generated css
+include_comments = true
+
+# Specify the output file for the generated css
+output = { dir = "output", file = "generated.css" }
+
 [logging]
+# Define the log level for the application (DEBUG, INFO, WARNING, ERROR, CRITICAL)
 level = "DEBUG"
