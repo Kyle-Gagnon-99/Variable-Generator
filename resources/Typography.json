@@ -1,0 +1,31 @@
+{
+    "collections": [
+        {
+            "name": "Typography",
+            "modes": [
+                "mobile",
+                "desktop"
+            ],
+            "variables": {
+                "font": {
+                    "family": {
+                        "title": {
+                            "type": "string",
+                            "values": {
+                                "mobile": "Open Sans",
+                                "desktop": "Open Sans"
+                            }
+                        },
+                        "body": {
+                            "type": "string",
+                            "values": {
+                                "mobile": "Inter",
+                                "desktop": "Inter"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
