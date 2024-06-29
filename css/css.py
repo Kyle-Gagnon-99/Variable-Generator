@@ -1,4 +1,5 @@
 import re
+import logging
 
 
 def is_alias(value: str) -> bool:
@@ -18,50 +19,92 @@ def convert_alias_to_css(value: str) -> str:
     return value.split(":")[1].replace("/", "-")
 
 
-def generate_css(variables: dict, config: dict) -> str:
-    """Generates CSS from the variables and config.
+def generate_css(config: dict, variables: dict):
+    variables_map = {}
+    extract_variables(variables['variables'],
+                      variables_map, "", variables['modes'])
+    print(variables_map)
+    return variables_map
+
+
+def is_state(key: str) -> bool:
+    # Check to see if it is a state (default, hover, focus, active, disabled)
+    # If so return true, otherwise return false
+    if key == "default" or key == "hover" or key == "focus" or key == "active" or key == "disabled":
+        return True
+    else:
+        return False
+
+
+def extract_variables(variables: dict,
+                      variables_map: dict,
+                      current_var: str,
+                      modes: list,
+                      is_hover: bool = False,
+                      is_focus: bool = False,
+                      is_active: bool = False,
+                      is_disabled: bool = False):
+    """Extracts the variables from the JSON file. It converts the variables into CSS variables.
 
     Args:
-        variables (dict): The variables to generate CSS from.
-        config (dict): The configuration to use.
-
-    Returns:
-        str: The resulting CSS.
+        variables (dict): The variables to extract.
+        variables_map (dict): The map of variables to extract. The key is either :root or :root[data-theme="theme-name"] if there is more than one mode. Inside the values is a dictionary of states to the list of CSS variables and their value
+        current_var (str): The current variable being built
+        modes (list): The list of modes for the collection. Used as the key for the values key.
+        is_hover (bool, optional): Whether or not it is a hover state variable (maps to :root:hover). Defaults to False.
+        is_focus (bool, optional): Whehter or not it is a focus state variable (maps to :root:focus). Defaults to False.
+        is_active (bool, optional): Whehter or not it is an active state variable (maps to :root:active). Defaults to False.
+        is_disabled (bool, optional): Whehter or not it is a disabled state variable (maps to :root:disabled). Defaults to False.
     """
-    css_content = ""
-    prefix = config["css"]["prefix"]
 
-    def process_variables(mode: str, var_dict: dict, path=""):
-        nonlocal css_content
-        for key, value in var_dict.items():
-            current_path = f"{path}-{key}" if path else key
-            if isinstance(value, dict) and 'values' in value:
-                mode_value = value['values'].get(mode)
-                if prefix != "":
-                    css_var = f"--{prefix}-{current_path}"
-                else:
-                    css_var = f"--{current_path}"
-                # If mode_value is an alias, convert it to CSS variable
-                if isinstance(mode_value, str) and is_alias(mode_value):
-                    if prefix != "":
-                        css_content += f"\t{css_var}: var(--{prefix}-{convert_alias_to_css(mode_value)});\n"
-                    else:
-                        css_content += f"\t{css_var}: var(--{convert_alias_to_css(mode_value)});\n"
-                else:
-                    css_content += f"\t{css_var}: {mode_value};\n"
-            elif isinstance(value, dict):
-                process_variables(mode, value, current_path)
+    # Loop through the dictionary of variables
+    for key, value in variables.items():
+        if is_state(key):
+            lowered_key = key.lower()
+            logging.debug(f"State found: {lowered_key}")
+            if lowered_key == "hover":
+                is_hover = True
+            elif lowered_key == "focus":
+                is_focus = True
+            elif lowered_key == "active":
+                is_active = True
+            elif lowered_key == "disabled":
+                is_disabled = True
+            key = ""
 
-    for collection in variables['collections']:
-        modes: list[str] = collection['modes']
-        if len(modes) == 1:
-            css_content += f":root {{\n"
-            process_variables(modes[0], collection['variables'])
-            css_content += "}\n"
-        else:
+        new_current_var = f"{current_var}-{key}" if current_var else key
+
+        if 'values' in value:
             for mode in modes:
-                css_content += f"[data-theme=\"{mode}\"] {{\n"
-                process_variables(mode, collection['variables'])
-                css_content += "}\n\n"
+                mode_key = f":root[data-theme='{mode}']" if len(
+                    modes) > 1 else ":root"
+                if mode_key not in variables_map:
+                    variables_map[mode_key] = {}
 
-    return css_content
+                state_key = "default"
+                if is_hover:
+                    state_key = "hover"
+                elif is_focus:
+                    state_key = "focus"
+                elif is_active:
+                    state_key = "active"
+                elif is_disabled:
+                    state_key = "disabled"
+
+                if state_key not in variables_map[mode_key]:
+                    variables_map[mode_key][state_key] = {}
+
+                css_var_name = f"--{new_current_var}".strip("-")
+                css_var_value = value['values'][mode]
+
+                if is_alias(css_var_value):
+                    css_var_value = f"var(--{convert_alias_to_css(css_var_value)})"
+
+                if css_var_name not in variables_map[mode_key][state_key]:
+                    variables_map[mode_key][state_key][css_var_name] = css_var_value
+                else:
+                    print(f"Duplicate variable found: {css_var_name}")
+
+        else:
+            extract_variables(value, variables_map, new_current_var,
+                              modes, is_hover, is_focus, is_active, is_disabled)

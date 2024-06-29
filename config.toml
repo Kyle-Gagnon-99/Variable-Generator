@@ -9,7 +9,6 @@ input_dir = "resources"
 input_files = [
     "Colors.json",
     "StyleTokens.json",
-    "SpacingTokens.json",
     "ComponentTokens.json",
 ]
 
@@ -23,8 +22,10 @@ tailwindcss = true
 # Include comments in the generated css
 include_comments = true
 
+# Use reserved keywords
+
 # Specify the output file for the generated css
-output = { dir = "output", file = "generated.css" }
+output = { dir = "output", file = "global.css" }
 
 [logging]
 # Define the log level for the application (DEBUG, INFO, WARNING, ERROR, CRITICAL)
