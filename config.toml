@@ -9,24 +9,33 @@ input_dir = "resources"
 input_files = [
     "Colors.json",
     "StyleTokens.json",
-    "ComponentTokens.json",
+    "Component Tokens.json",
+    "Typography.json",
+    "SpacingTokens.json",
 ]
 
 [css]
 # A prefix to add to each generated CSS variable
 prefix = "mw"
 
-# Generate css as a TailwindCSS file
-tailwindcss = true
+# Use a prefix for the generated CSS variables
+use_prefix = true
+
+# Generate css as a TailwindCSS file (which means color functions will be omitted)
+# For example, hsl(0, 0%, 100%) will instead be 0, 0%, 100%
+tailwindcss = false
 
 # Include comments in the generated css
 include_comments = true
 
 # Use reserved keywords
+# If true, the generator will remove the states (e.g. "hover", "focus") from the generated CSS variables
+# and instead put them in a separate section
+use_reserved_keywords = true
 
 # Specify the output file for the generated css
-output = { dir = "output", file = "global.css" }
+output = { dir = "../motionwindui/packages/base/src", file = "styles.css" }
 
 [logging]
 # Define the log level for the application (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-level = "DEBUG"
+level = "INFO"

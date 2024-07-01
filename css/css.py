@@ -1,5 +1,37 @@
 import re
-import logging
+
+
+def extract_color_values(color_string):
+    """
+    Extracts color values from a color string.
+
+    Args:
+        color_string (str): The color string to extract values from.
+
+    Returns:
+        dict or None: A dictionary containing the extracted color values, 
+        or None if the color string does not match the expected format.
+
+    Examples:
+        >>> extract_color_values('hsl(240, 100%, 50%)')
+        {'h': '240', 's': '100%', 'l': '50%'}
+
+        >>> extract_color_values('rgb(255, 0, 0)')
+        {'r': '255', 'g': '0', 'b': '0'}
+
+        >>> extract_color_values('invalid_color')
+        None
+    """
+    hsl_match = re.match(r'hsl\((\d+),\s*(\d+%)?,\s*(\d+%)?\)', color_string)
+    rgb_match = re.match(r'rgb\((\d+),\s*(\d+),\s*(\d+)\)', color_string)
+
+    if hsl_match:
+        h, s, l = hsl_match.groups()
+        return {'h': h, 's': s, 'l': l}
+    elif rgb_match:
+        r, g, b = rgb_match.groups()
+        return {'r': r, 'g': g, 'b': b}
+    return None
 
 
 def is_alias(value: str) -> bool:
@@ -19,15 +51,30 @@ def convert_alias_to_css(value: str) -> str:
     return value.split(":")[1].replace("/", "-")
 
 
-def generate_css(config: dict, variables: dict):
+def generate_css(variables: dict) -> dict:
+    """Generates the CSS from the given variables.
+
+    Args:
+        variables (dict): The dictionary of variables to generate CSS from.
+
+    Returns:
+        dict: The resulting map of root selectors, to states, to the CSS variables and their values.
+    """
     variables_map = {}
     extract_variables(variables['variables'],
                       variables_map, "", variables['modes'])
-    print(variables_map)
     return variables_map
 
 
 def is_state(key: str) -> bool:
+    """Checks if the key is a state. A state is a key that is either default, hover, focus, active, or disabled.
+
+    Args:
+        key (str): The key to check if it is a state.
+
+    Returns:
+        bool: Whether or not the key is a state.
+    """
     # Check to see if it is a state (default, hover, focus, active, disabled)
     # If so return true, otherwise return false
     if key == "default" or key == "hover" or key == "focus" or key == "active" or key == "disabled":
@@ -60,23 +107,39 @@ def extract_variables(variables: dict,
     # Loop through the dictionary of variables
     for key, value in variables.items():
         if is_state(key):
+            # Set the state to true and reset the key
+            # Make sure only one state is true, otherwise it will all default to is_hover
             lowered_key = key.lower()
-            logging.debug(f"State found: {lowered_key}")
             if lowered_key == "hover":
                 is_hover = True
+                is_active = False
+                is_focus = False
+                is_disabled = False
             elif lowered_key == "focus":
                 is_focus = True
+                is_hover = False
+                is_active = False
+                is_disabled = False
             elif lowered_key == "active":
                 is_active = True
+                is_hover = False
+                is_focus = False
+                is_disabled = False
             elif lowered_key == "disabled":
                 is_disabled = True
+                is_hover = False
+                is_focus = False
+                is_active = False
             key = ""
 
-        new_current_var = f"{current_var}-{key}" if current_var else key
+        if key != "":
+            new_current_var = f"{current_var}-{key}" if current_var else key
+        else:
+            new_current_var = current_var
 
         if 'values' in value:
             for mode in modes:
-                mode_key = f":root[data-theme='{mode}']" if len(
+                mode_key = f":root[data-mode='{mode}']" if len(
                     modes) > 1 else ":root"
                 if mode_key not in variables_map:
                     variables_map[mode_key] = {}
@@ -97,8 +160,14 @@ def extract_variables(variables: dict,
                 css_var_name = f"--{new_current_var}".strip("-")
                 css_var_value = value['values'][mode]
 
-                if is_alias(css_var_value):
+                if is_alias(str(css_var_value)):
                     css_var_value = f"var(--{convert_alias_to_css(css_var_value)})"
+                elif extract_color_values(str(css_var_value)):
+                    color_values = extract_color_values(css_var_value)
+                    if 'h' in color_values:
+                        css_var_value = f"{color_values['h']}deg {color_values['s']} {color_values['l']}"
+                    elif 'r' in color_values:
+                        css_var_value = f"{color_values['r']} {color_values['g']} {color_values['b']}"
 
                 if css_var_name not in variables_map[mode_key][state_key]:
                     variables_map[mode_key][state_key][css_var_name] = css_var_value

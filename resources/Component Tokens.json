@@ -1,0 +1,2146 @@
+{
+    "collections": [
+        {
+            "name": "Component Tokens",
+            "modes": [
+                "Winter Theme"
+            ],
+            "variables": {
+                "button": {
+                    "neutral": {
+                        "solid": {
+                            "default": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-active"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-disabled"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral-disabled"
+                                    }
+                                }
+                            }
+                        },
+                        "light": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-subtle-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-disabled"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral-disabled"
+                                    }
+                                }
+                            }
+                        },
+                        "bordered": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral-hover"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral-active"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral"
+                                    }
+                                }
+                            }
+                        },
+                        "ghost": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-neutral"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/neutral-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/neutral"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/neutral"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "primary": {
+                        "solid": {
+                            "default": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-active"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary"
+                                    }
+                                }
+                            }
+                        },
+                        "light": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-subtle-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                }
+                            }
+                        },
+                        "bordered": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary-hover"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary-active"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary"
+                                    }
+                                }
+                            }
+                        },
+                        "ghost": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-primary"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/primary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/primary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/primary"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "secondary": {
+                        "solid": {
+                            "default": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-secondary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-secondary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-active"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-secondary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-secondary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-secondary"
+                                    }
+                                }
+                            }
+                        },
+                        "light": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-subtle-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                }
+                            }
+                        },
+                        "bordered": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary-hover"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary-active"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary"
+                                    }
+                                }
+                            }
+                        },
+                        "ghost": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-secondary"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/secondary-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/secondary"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/secondary"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "success": {
+                        "solid": {
+                            "default": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-active"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success"
+                                    }
+                                }
+                            }
+                        },
+                        "light": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-subtle-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                }
+                            }
+                        },
+                        "bordered": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success-hover"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success-active"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success"
+                                    }
+                                }
+                            }
+                        },
+                        "ghost": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-success"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/success-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/success"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/success"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "warning": {
+                        "solid": {
+                            "default": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-active"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-disabled"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning-disabled"
+                                    }
+                                }
+                            }
+                        },
+                        "light": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-subtle-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                }
+                            }
+                        },
+                        "bordered": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning-hover"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning-active"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning"
+                                    }
+                                }
+                            }
+                        },
+                        "ghost": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-warning"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/warning-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/warning"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/warning"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "danger": {
+                        "solid": {
+                            "default": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-danger"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-danger-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-active"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-danger-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-danger"
+                                    }
+                                }
+                            }
+                        },
+                        "light": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-subtle-hover"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-subtle"
+                                    }
+                                },
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                }
+                            }
+                        },
+                        "bordered": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger-hover"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger-active"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger"
+                                    }
+                                }
+                            }
+                        },
+                        "ghost": {
+                            "default": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger"
+                                    }
+                                }
+                            },
+                            "hover": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-danger"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-hover"
+                                    }
+                                }
+                            },
+                            "active": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/on-danger"
+                                    }
+                                },
+                                "background": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:accent/danger-active"
+                                    }
+                                }
+                            },
+                            "focus": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "text": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:text/danger"
+                                    }
+                                },
+                                "border": {
+                                    "type": "color",
+                                    "values": {
+                                        "Winter Theme": "Style Tokens:border/danger"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "sm": {
+                            "x": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:padding/sm"
+                                }
+                            },
+                            "y": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:padding/xs"
+                                }
+                            }
+                        },
+                        "md": {
+                            "x": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:padding/md"
+                                }
+                            },
+                            "y": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:padding/sm"
+                                }
+                            }
+                        },
+                        "lg": {
+                            "x": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:padding/lg"
+                                }
+                            },
+                            "y": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:padding/md"
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "size": {
+                            "type": "number",
+                            "values": {
+                                "Winter Theme": 1
+                            }
+                        },
+                        "radius": {
+                            "none": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/none"
+                                }
+                            },
+                            "sm": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/sm"
+                                }
+                            },
+                            "md": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/md"
+                                }
+                            },
+                            "lg": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/lg"
+                                }
+                            },
+                            "xl": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/xl"
+                                }
+                            },
+                            "full": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/full"
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "size": {
+                            "sm": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:text/16"
+                                }
+                            },
+                            "md": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:text/20"
+                                }
+                            },
+                            "lg": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:text/24"
+                                }
+                            }
+                        }
+                    }
+                },
+                "input": {
+                    "neutral": {
+                        "background": {
+                            "default": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/neutral-subtle"
+                                }
+                            },
+                            "hover": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/neutral-subtle-hover"
+                                }
+                            },
+                            "active": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/neutral-subtle"
+                                }
+                            }
+                        },
+                        "placeholder": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/on-neutral-subtle-subtle"
+                            }
+                        },
+                        "label": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/neutral"
+                            }
+                        },
+                        "hint": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/subtle"
+                            }
+                        }
+                    },
+                    "primary": {
+                        "background": {
+                            "default": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/primary-subtle"
+                                }
+                            },
+                            "hover": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/primary-subtle-hover"
+                                }
+                            },
+                            "active": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/primary-subtle"
+                                }
+                            }
+                        },
+                        "placeholder": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/on-primary-subtle-subtle"
+                            }
+                        },
+                        "label": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/primary"
+                            }
+                        },
+                        "hint": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/subtle"
+                            }
+                        }
+                    },
+                    "secondary": {
+                        "background": {
+                            "default": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/secondary-subtle"
+                                }
+                            },
+                            "hover": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/secondary-subtle-hover"
+                                }
+                            },
+                            "active": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/secondary-subtle"
+                                }
+                            }
+                        },
+                        "placeholder": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/on-secondary-subtle-subtle"
+                            }
+                        },
+                        "label": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/secondary"
+                            }
+                        },
+                        "hint": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/subtle"
+                            }
+                        }
+                    },
+                    "success": {
+                        "background": {
+                            "default": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/success-subtle"
+                                }
+                            },
+                            "hover": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/success-subtle-hover"
+                                }
+                            },
+                            "active": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/success-subtle"
+                                }
+                            }
+                        },
+                        "placeholder": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/on-success-subtle-subtle"
+                            }
+                        },
+                        "label": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/success"
+                            }
+                        },
+                        "hint": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/subtle"
+                            }
+                        }
+                    },
+                    "danger": {
+                        "background": {
+                            "default": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/danger-subtle"
+                                }
+                            },
+                            "hover": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/danger-subtle-hover"
+                                }
+                            },
+                            "active": {
+                                "type": "color",
+                                "values": {
+                                    "Winter Theme": "Style Tokens:accent/danger-subtle"
+                                }
+                            }
+                        },
+                        "placeholder": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/on-danger-subtle-subtle"
+                            }
+                        },
+                        "label": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/danger"
+                            }
+                        },
+                        "hint": {
+                            "type": "color",
+                            "values": {
+                                "Winter Theme": "Style Tokens:text/danger"
+                            }
+                        }
+                    },
+                    "border": {
+                        "radius": {
+                            "none": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/none"
+                                }
+                            },
+                            "sm": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/sm"
+                                }
+                            },
+                            "md": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/md"
+                                }
+                            },
+                            "lg": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/lg"
+                                }
+                            },
+                            "xl": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/xl"
+                                }
+                            },
+                            "full": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:radius/full"
+                                }
+                            }
+                        }
+                    },
+                    "size": {
+                        "text": {
+                            "label": {
+                                "sm": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/18"
+                                    }
+                                },
+                                "md": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/20"
+                                    }
+                                },
+                                "lg": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/24"
+                                    }
+                                }
+                            },
+                            "placeholder": {
+                                "sm": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/20"
+                                    }
+                                },
+                                "md": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/24"
+                                    }
+                                },
+                                "lg": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/30"
+                                    }
+                                }
+                            },
+                            "hint": {
+                                "sm": {
+                                    "type": "number",
+                                    "values": {
+                                        "Winter Theme": "Spacing Tokens:text/16"
+                                    }
+                                }
+                            }
+                        },
+                        "padding": {
+                            "sm": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:spacing/4"
+                                }
+                            },
+                            "md": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:spacing/8"
+                                }
+                            },
+                            "lg": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:spacing/12"
+                                }
+                            }
+                        },
+                        "gap": {
+                            "sm": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:spacing/16"
+                                }
+                            },
+                            "md": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:spacing/24"
+                                }
+                            },
+                            "lg": {
+                                "type": "number",
+                                "values": {
+                                    "Winter Theme": "Spacing Tokens:spacing/32"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
